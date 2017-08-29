@@ -2,6 +2,8 @@
 
 > transform cli to JSON API Server
 
+[![https://gyazo.com/304c28e7e55f9506374121bbe6de5364](https://i.gyazo.com/304c28e7e55f9506374121bbe6de5364.png)](https://gyazo.com/304c28e7e55f9506374121bbe6de5364)
+
 
 ## Install
 
