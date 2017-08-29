@@ -1,6 +1,6 @@
 {
   "name": "cli-to-api",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "transform cli to api",
   "license": "MIT",
   "repository": "akameco/cli-to-api",
