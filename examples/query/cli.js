@@ -12,4 +12,4 @@ const jsers = {
   substack: ['browserify', 'tape'],
 }
 
-console.log(jsers[name] || [])
+console.log(jsers[name] || jsers)

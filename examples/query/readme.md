@@ -28,3 +28,14 @@ listening on 3000
 $ curl localhost:3000?name=tj
 ["express","koa","mocha","stylus","co"]
 ```
+
+## Deploy
+
+```
+$ up
+```
+
+```
+$ curl `up url`?name=tj
+["express","koa","mocha","stylus","co"]
+```
