@@ -1,6 +1,6 @@
 # cli-to-api [![Build Status](https://travis-ci.org/akameco/cli-to-api.svg?branch=master)](https://travis-ci.org/akameco/cli-to-api)
 
-> transform cli to api
+> transform cli to JSON API Server
 
 
 ## Install
