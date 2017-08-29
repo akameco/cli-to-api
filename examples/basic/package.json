@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "node ../cli.js index.js -o server.js"
+    "build": "node ../../cli.js cli.js -o server.js"
   },
   "dependencies": {
     "cors": "^2.8.4",

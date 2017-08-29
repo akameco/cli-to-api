@@ -20,7 +20,14 @@ cli.js
 console.log({ lang: 'JavaScript' })
 ```
 
-### Run
+### Run as CLI
+
+```
+$ node cli.js
+{ lang: 'JavaScript' }
+```
+
+### Transform
 
 ```
 $ cli-to-api -o server.js cli.js
@@ -39,12 +46,29 @@ const app = express();
 const port = process.env.PORT || 3000;
 app.use(cors());
 app.get('/', (req, res) => {
-  res.json(`hello`);
+  res.json({lang: 'JavaScript'});
 });
 app.listen(port, () => {
   console.log('listening on %s', port);
 });
 ```
+
+
+### Run as Server
+
+```
+$ node server.js
+listening on 3000
+```
+
+```
+$ curl localhost:3000
+{
+  "lang": "JavaScript"
+}
+```
+
+See examples.
 
 ## License
 

@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "node ../../cli.js cli.js -o server.js"
+  },
+  "dependencies": {
+    "mri": "^1.1.0"
+  }
+}
