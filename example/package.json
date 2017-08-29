@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "node ../cli.js index.js -o server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.15.4"
+  }
+}
