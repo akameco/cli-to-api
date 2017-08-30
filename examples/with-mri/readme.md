@@ -1,4 +1,4 @@
-## Query
+## with mri
 
 ## Install
 
