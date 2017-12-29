@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "node server.js",
+    "build": "node ../../cli.js cli.js -o server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "minimist": "^1.2.0"
+  }
+}
